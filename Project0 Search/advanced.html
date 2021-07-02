@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Google-favicon-2015.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="adv-head">
+      <img
+        src="images/580b57fcd9996e24bc43c51f.png"
+        alt="image"
+        class="branding"
+      />
+      <div class="menu-bar">
+        <ul>
+          <li><a href="index.html" class="nav-text">Search Home</a></li>
+          <li><a href="image.html" class="nav-text">Images</a></li>
+        </ul>
+      </div>
+      <div class="heading-txt">Advanced Search</div>
+    </header>
+
+    <div class="main">
+      <p class="title">Find pages with...</p>
+      <div class="formArea">
+        <form action="https://google.com/search">
+          <div class="rows">
+            <p class="text-heading">all these words:</p>
+            <input class="text-input" type="text" name="as_q" />
+          </div>
+          <div class="rows">
+            <p class="text-heading">this exact word or phrase:</p>
+            <input class="text-input" type="text" name="as_epq" />
+          </div>
+          <div class="rows">
+            <p class="text-heading">any of these words:</p>
+            <input class="text-input" type="text" name="as_oq" />
+          </div>
+          <div class="rows">
+            <p class="text-heading">none of these words:</p>
+            <input class="text-input" type="text" name="as_eq" />
+          </div>
+          <div class="submitAdvanced">
+            <input type="submit" value="Advanced Search" class="btnAdvanced" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
